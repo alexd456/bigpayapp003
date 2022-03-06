@@ -3,6 +3,7 @@ import 'package:amplify_flutter/amplify_flutter.dart';
 import 'package:amplify_storage_s3/amplify_storage_s3.dart';
 
 import 'package:bigpay_app003/amplifyconfiguration.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
 class AppConfig {
@@ -19,6 +20,9 @@ class AppConfig {
 
   Future<void> initialiseApp() async {
     WidgetsFlutterBinding.ensureInitialized();
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+    ]);
 
     await _configureAmplify();
   }
