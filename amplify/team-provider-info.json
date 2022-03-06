@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bigpayapp003-dev-211400-authRole",
+      "UnauthRoleArn": "arn:aws:iam::283910535983:role/amplify-bigpayapp003-dev-211400-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::283910535983:role/amplify-bigpayapp003-dev-211400-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-bigpayapp003-dev-211400-deployment",
+      "UnauthRoleName": "amplify-bigpayapp003-dev-211400-unauthRole",
+      "StackName": "amplify-bigpayapp003-dev-211400",
+      "StackId": "arn:aws:cloudformation:eu-west-1:283910535983:stack/amplify-bigpayapp003-dev-211400/db70ba20-9b36-11ec-bf4e-0a95edc117b5",
+      "AmplifyAppId": "d19qgrbidha0z8"
+    },
+    "categories": {
+      "auth": {
+        "bigpayapp00334323225": {}
+      }
+    }
+  }
+}
